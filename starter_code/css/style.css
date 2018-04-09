@@ -64,8 +64,9 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  width: 66%;
   margin: 0 auto;
+  justify-content: center;
 }
 .logo {
   font-size: 48px;
@@ -287,6 +288,65 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
+
+/**************/
+/**RESPONSIVE**/
+/**************/
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+
+    html {
+      font-size: 15px;
+    }
+  
+    header .logo {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  
+    header nav {
+      float: none;
+      display: block;
+      align-content: center;
+      font-size: 1.5rem;
+      margin-top: 0.61em;
+      padding-left: 3.5em;
+    }
+    .container {
+      width: 650px;
+    }
+
+    .testimonial {
+      background: url("../images/testimonial/testimonial_bg_LARGE.jpg") no-repeat top center #071324;
+      background-size: cover;
+    }
+  
+
+
+  #sidebar {
+    display: none;
+  }
+ #posts {
+   width: 600px;
+ }
+ .blogpics {
+  width: 600px;
+}
+#main {
+  margin-right: 33%;
+  padding-left: 10%;
+}
+
+  }
+  
 
 
 
